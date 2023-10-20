@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, View, ScrollView } from "react-native";
 import { Card, Button } from "react-native-paper";
-import characters from "./PersonajesData";
+import characters from "../components/Personaje/PersonajesData";
 
 const Personajes = ({ navigation }) => {
   return (

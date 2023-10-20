@@ -1,11 +1,8 @@
 import React from "react";
-import MyCart from "./Card";
+import MyCart from "../components/Portada/Card";
 
 const Home = () => {
-  return (
-      <MyCart />
-  );
+  return <MyCart />;
 };
-
 
 export default Home;

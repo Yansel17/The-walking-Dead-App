@@ -6,22 +6,22 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
 //Screens
-import MyCart from "./Screens/Portada/Card";
-import Temporadas from "./Screens/Portada/Temporadas";
-import Personajes from "./Screens/Personaje/Personajes";
+import MyCart from "./components/Portada/Card";
+import Temporadas from "./components/Portada/Temporadas";
+import Personajes from "./Screens/Personajes";
 //Personajes Screens
-import Personaje1 from "./Screens/Personaje/Personaje1";
-import Personaje2 from "./Screens/Personaje/Personaje2";
-import Personaje3 from "./Screens/Personaje/Personaje3";
+import Personaje1 from "./components/Personaje/Personaje1";
+import Personaje2 from "./components/Personaje/Personaje2";
+import Personaje3 from "./components/Personaje/Personaje3";
 //Momentos Screens
-import Momentos from "./Screens/Momentos/Momentos";
-import Momento1 from "./Screens/Momentos/Momento1";
-import Momento2 from "./Screens/Momentos/Momento2";
-import Momento3 from "./Screens/Momentos/Momento3";
+import Momentos from "./Screens/Momentos";
+import Momento1 from "./components/Momentos/Momento1";
+import Momento2 from "./components/Momentos/Momento2";
+import Momento3 from "./components/Momentos/Momento3";
 //
 import Acerca from "./Screens/Acerca";
 import MiVida from "./Screens/MiVida";
-import Contratame from "./Screens/Contratame/Contratame";
+import Contratame from "./Screens/Contratame";
 
 const Stacks = createNativeStackNavigator();
 
